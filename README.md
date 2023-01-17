@@ -7,4 +7,5 @@
 ## 說明
 
 CNN_train.py訓練結果為cnn1.h5
+
 CNN2_train.py訓練結果為cnn3.h5
