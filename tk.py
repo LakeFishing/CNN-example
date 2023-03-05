@@ -1,8 +1,13 @@
 import tkinter as tk
 from PIL import ImageGrab
 import cv2
+import os
+
 from CNN_pre import cnn_pre
 from CNN2_pre import cnn2_pre
+
+if not os.path.isdir("images"):
+    os.makedirs("images")
 
 picture = "images\output.png"
 
